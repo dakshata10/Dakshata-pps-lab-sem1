@@ -1,0 +1,25 @@
+#include<stdio.h>
+void main()
+{
+    int a,b,c;
+    printf("Enter 1st side length of triangles:");
+    scanf("%d",&a);
+    printf("Enter 2nd side length of traingle:");
+    scanf("%d",&b);
+    printf("Enter 3nd side length of traingle:");
+    scanf("%d",&c);
+    if(a==b&&a==c)
+    { 
+        printf("Triangle is Equaliteral");
+        break;
+    }
+    else if (a==b || a==c || b==c)
+    { 
+        Printf("Triangle is Isoceles");
+        break;
+    }
+    else
+    {  
+         Printf("Traingle is scalene");
+    }
+}
